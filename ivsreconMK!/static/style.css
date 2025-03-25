@@ -1,0 +1,196 @@
+body {
+    background-color: #1a1d21 !important;
+    color: #e9ecef !important;
+}
+
+.card {
+    background-color: #2a2d31 !important;
+    border: 1px solid #454d55 !important;
+}
+
+.card-header {
+    background-color: #343a40 !important;
+    border-bottom: 1px solid #454d55 !important;
+}
+
+.table {
+    color: #e9ecef !important;
+}
+
+.table-dark {
+    background-color: #2a2d31 !important;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 0.7em;
+}
+
+.badge-open {
+    background-color: #28a745;
+}
+
+.badge-closed {
+    background-color: #dc3545;
+}
+
+.vulnerability-item {
+    border-left: 4px solid #dc3545;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+.exploit-item {
+    border-left: 4px solid #17a2b8;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(23, 162, 184, 0.1);
+}
+
+.form-control {
+    background-color: #2a2d31 !important;
+    border-color: #454d55 !important;
+    color: #e9ecef !important;
+}
+
+.form-control:focus {
+    background-color: #2a2d31 !important;
+    border-color: #0d6efd !important;
+    color: #e9ecef !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.btn-primary {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.btn-success {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.service-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.version-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+    background-color: #6c757d;
+    color: white;
+}
+
+.os-item {
+    background-color: rgba(33, 37, 41, 0.3);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.os-item h5 {
+    color: #e9ecef;
+    margin-bottom: 0.5rem;
+}
+
+.os-details {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.api-item {
+    background-color: rgba(33, 37, 41, 0.3);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #0d6efd;
+}
+
+.api-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+}
+
+.api-details p {
+    margin-bottom: 0.5rem;
+}
+
+.api-details a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.api-details a:hover {
+    text-decoration: underline;
+}
+
+.vuln-details {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.vuln-details code {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    color: #e9ecef;
+    word-break: break-all;
+}
+
+.vulnerability-section {
+    border-left: 4px solid #dc3545;
+    padding: 1rem;
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+.dns-section {
+    margin-bottom: 2rem;
+}
+
+.dns-records table code {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    color: #e9ecef;
+}
+
+.subdomain-item {
+    background-color: rgba(33, 37, 41, 0.3);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    border-left: 4px solid #198754;
+}
+
+.subdomain-details {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+}
+
+.subdomain-details code {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    color: #e9ecef;
+}
+
+.dns-services table td {
+    vertical-align: middle;
+} 
